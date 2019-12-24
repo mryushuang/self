@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title></title>
+		<title>余爽的个人网页</title>
 		<style type="text/css">
 			*{
 			  padding: 0;
@@ -144,34 +144,7 @@
 				color: red;
 			}
 		</style>
-		<script type="text/javascript">
-						function shuai(){
-				var x=prompt("照片上的那个同学帅吗？","")
-				var zy1="虽然已经不止一个人这么说了";
-				var zy2="但我还是很欣赏你的眼光、你的真诚和犀利.";
-				var zy3="生活中你一定是一个温暖、细致、正直且智慧的人，如果能成为你的朋友是我的荣幸！"+"</br>"+"——————————————谢谢！";
-				
-				if(x=="帅"){
-					alert("英雄所见略同")
-					document.getElementById("text1").innerHTML=zy1;
-					document.getElementById("text2").innerHTML=zy2;
-					document.getElementById("text3").innerHTML=zy3;
-					var text_array=document.getElementsByClassName("bottom_text");
-					var i;
-					for(i=0;i<text_array.length;i++){
-						text_array[i].innerHTML="谢谢";
-					}
-					var text_array=document.getElementsByClassName("right_text");
-					var a;
-					for(a=0;a<text_array.length;a++){
-						text_array[a].style.color="red";
-					}
-//					document.getElementsByClassName("bottom_text").innerHTML="zy4";
-				}else{
-					alert("请输入标准答案")
-				}
-			     }
-		</script>
+		
 	</head>
 	<body>
 		<div class="box_big">
@@ -205,5 +178,61 @@
 			</div>
 		</div>
 		</div>
+		
+               <script type="text/javascript">
+148
+                                                function shuai(){
+149
+                                var x=prompt("照片上的那个同学帅吗？","")
+150
+                                var zy1="虽然已经不止一个人这么说了";
+151
+                                var zy2="但我还是很欣赏你的眼光、你的真诚和犀利.";
+152
+                                var zy3="生活中你一定是一个温暖、细致、正直且智慧的人，如果能成为你的朋友是我的荣幸！"+"</br>"+"——————————————谢谢！";
+153
+                                
+154
+                                if(x=="帅"){
+155
+                                        alert("英雄所见略同")
+156
+                                        document.getElementById("text1").innerHTML=zy1;
+157
+                                        document.getElementById("text2").innerHTML=zy2;
+158
+                                        document.getElementById("text3").innerHTML=zy3;
+159
+                                        var text_array=document.getElementsByClassName("bottom_text");
+160
+                                        var i;
+161
+                                        for(i=0;i<text_array.length;i++){
+162
+                                                text_array[i].innerHTML="谢谢";
+163
+                                        }
+164
+                                        var text_array=document.getElementsByClassName("right_text");
+165
+                                        var a;
+166
+                                        for(a=0;a<text_array.length;a++){
+167
+                                                text_array[a].style.color="red";
+168
+                                        }
+169
+//                                      document.getElementsByClassName("bottom_text").innerHTML="zy4";
+170
+                                }else{
+171
+                                        alert("请输入标准答案")
+172
+                                }
+173
+                             }
+174
+                </script>
 	</body>
 </html>
